@@ -7,6 +7,7 @@ public abstract class LibraryItem
     private int yearPublished;
 
     private boolean isBorrowed;
+
     public abstract double calculateLateFee(int daysPastDue);
 
     public LibraryItem(String title, int yearPublished)
