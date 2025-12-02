@@ -5,6 +5,7 @@ public abstract class LibraryItem
     private final UUID itemId;
     private String title;
     private int yearPublished;
+
     private boolean isBorrowed;
     public abstract double calculateLateFee(int daysPastDue);
 
