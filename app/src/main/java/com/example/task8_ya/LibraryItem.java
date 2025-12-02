@@ -8,7 +8,6 @@ public abstract class LibraryItem
     private boolean isBorrowed;
     public abstract double calculateLateFee(int daysPastDue);
 
-    // 2. בנאי (Constructor)
     public LibraryItem(String title, int yearPublished)
     {
         this.title = title;
